@@ -1,3 +1,10 @@
+ldb (2:2.4.4-0ubuntu0.22.04.1) jammy-security; urgency=medium
+
+  * No-change rebuild to solve versioning issue preventing upgrades from
+    focal to jammy. (LP: #2009895)
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 10 Mar 2023 06:55:45 -0500
+
 ldb (2:2.4.4-0ubuntu0.1) jammy-security; urgency=medium
 
   * Updated to 2.4.4 to fix security issue.
