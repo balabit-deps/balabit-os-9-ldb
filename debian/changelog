@@ -1,3 +1,13 @@
+ldb (2:2.4.4-0ubuntu0.22.04.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Access controlled AD LDAP attributes can be discovered
+    - debian/patches/CVE-2023-0614-*.patch: upstream patches to fix the
+      issue.
+    - debian/libldb2.symbols: added new symbols.
+    - CVE-2023-0614
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 30 Mar 2023 08:16:21 -0400
+
 ldb (2:2.4.4-0ubuntu0.22.04.1) jammy-security; urgency=medium
 
   * No-change rebuild to solve versioning issue preventing upgrades from
